@@ -1,0 +1,40 @@
+---
+title: "Sample Quatro document with Hebrew text"
+format:
+  pdf:
+    pdf-engine: lualatex
+    mainfont: "SBL Hebrew"
+    include-in-header: header.tex
+  docx:
+    filters:
+      - strip-latex.lua
+  
+---
+
+# Main title
+
+## Subtitle
+
+Below is a proper RTL Hebrew sentence with nikkud and correct word order. Inline: \heb{בְּרֵאשִׁית בָּרָא אֱלֹהִים}.[^1]
+
+Full paragraph:
+
+\begin{hebrew}
+בְּרֵאשִׁית בָּרָא אֱלֹהִים
+
+בְּרֵאשִׁית בָּרָא אֱלֹהִים
+
+בְּרֵאשִׁית בָּרָא אֱלֹהִים
+
+בְּרֵאשִׁית בָּרָא אֱלֹהִים
+\end{hebrew}
+
+Also some mathematics: $a = \frac{1}{2}$
+
+To export to Microsoft Word (docx) format, type this from the command line: 
+
+> quarto render main.qmd --to docx
+
+[^1]: This is a footnote with hebrew text: \heb{בְּרֵאשִׁית}.
+
+
