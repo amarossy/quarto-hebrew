@@ -8,7 +8,8 @@ format:
   docx:
     filters:
       - strip-latex.lua
-  
+bibliography: references.bib
+csl: apa.csl
 ---
 
 # Main title
@@ -35,6 +36,11 @@ To export to Microsoft Word (docx) format, type this from the command line:
 
 > quarto render main.qmd --to docx
 
+Here is a reference: Harari [@harari2015sapiens].[^2]
+
+# References
+
 [^1]: This is a footnote with hebrew text: \heb{בְּרֵאשִׁית}.
+[^2]: @harari2015sapiens argues that history matters.
 
 

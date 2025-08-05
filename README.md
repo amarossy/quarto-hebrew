@@ -36,3 +36,4 @@ quarto render main.qmd --to docx
 
 The lua script in the strip-latex.lua file is used to strip out the Hebrew text from the LaTeX output, which is necessary for proper rendering in docx format.
 
+You can download more citation styles from [citation styles](https://github.com/citation-style-language/styles).
