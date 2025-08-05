@@ -22,7 +22,7 @@ Be careful when installing the SBL Hebrew font -- right-click the font file and 
 
 ## Usage
 
-Rendering the document is straightforward. Open the `index.qmd` file in your editor and use the render command:
+Rendering the document is straightforward. Open the `index.qmd` file in your editor and use the render command, or knit with CTRL+SHIFT+K.
 
 ```bash
 quarto render main.qmd
