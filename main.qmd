@@ -15,18 +15,18 @@ format:
 
 ## Subtitle
 
-Below is a proper RTL Hebrew sentence with nikkud and correct word order. Inline: \heb{בְּרֵאשִׁית בָּרָא אֱלֹהִים}.[^1]
+Below is a proper RTL Hebrew sentence with nikkud and correct word order. Inline: \heb{מִזְמֹ֡ור שִׁיר־חֲנֻכַּ֖ת הַבַּ֣יִת לְדָוִֽד׃}.[^1]
 
 Full paragraph:
 
 \begin{hebrew}
-בְּרֵאשִׁית בָּרָא אֱלֹהִים
+אֲרוֹמִמְךָ֣ יְ֭הוָה כִּ֣י דִלִּיתָ֑נִי וְלֹא־שִׂמַּ֖חְתָּ אֹיְבַ֣י לִֽי׃
 
-בְּרֵאשִׁית בָּרָא אֱלֹהִים
+יְהוָ֥ה אֱלֹהָ֑י שִׁוַּ֥עְתִּי אֵ֝לֶ֗יךָ וַתִּרְפָּאֵֽנִי׃
 
-בְּרֵאשִׁית בָּרָא אֱלֹהִים
+יְֽהוָ֗ה הֶֽעֱלִ֣יתָ מִן־שְׁאֹ֣ול נַפְשִׁ֑י חִ֝יִּיתַ֗נִי מִיָּֽורְדִי*־בֹֽור׃
 
-בְּרֵאשִׁית בָּרָא אֱלֹהִים
+זַמְּר֣וּ לַיהוָ֣ה חֲסִידָ֑יו וְ֝הוֹד֗וּ לְזֵ֣כֶר קָדְשֹֽׁו׃
 \end{hebrew}
 
 Also some mathematics: $a = \frac{1}{2}$
